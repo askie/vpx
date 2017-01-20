@@ -4,8 +4,8 @@ After=docker.service
  
 [Service]
 RemainAfterExit=yes
-ExecStart=/usr/bin/docker start sds
-ExecStop=/usr/bin/docker stop sds
+ExecStart=/usr/bin/docker start dkvpn
+ExecStop=/usr/bin/docker stop dkvpn
  
 [Install]
 WantedBy=multi-user.target
